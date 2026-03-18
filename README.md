@@ -2,12 +2,6 @@
 
 ![Reverse Logistics Demo](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## 🌐 Live Demo
-Try the deployed application here:
-
-🔗 **Live Application:**  
-https://reverselogistics-ayush.vercel.app/
-
 ## 📌 Overview
 This platform intelligently manages customer returns by routing them to local warehouses instead of returning them all the way to the original source. When a new customer nearby orders the same product, it is quickly redispatched from the local warehouse, saving significant time, logistics costs, and reducing the carbon footprint.
 
