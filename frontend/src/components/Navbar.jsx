@@ -86,7 +86,6 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-3">
           <Link
             to="/demo"
-            target="_blank"
             className="px-6 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-emerald-600 to-green-600 rounded-xl shadow-lg shadow-emerald-600/25 hover:shadow-xl hover:shadow-emerald-600/30 hover:-translate-y-0.5 active:scale-[0.97] transition-all no-underline"
           >
             Run Simulation
@@ -129,7 +128,6 @@ const Navbar = () => {
           )}
           <Link
             to="/demo"
-            target="_blank"
             onClick={() => setMobileOpen(false)}
             className="block w-full mt-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-emerald-600 to-green-600 rounded-xl shadow-lg shadow-emerald-600/20 text-center no-underline"
           >

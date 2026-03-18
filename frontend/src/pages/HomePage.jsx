@@ -219,7 +219,7 @@ const HomePage = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start">
-              <Link to="/demo" target="_blank" className="no-underline">
+              <Link to="/demo" className="no-underline">
                 <button className="group w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-emerald-600 to-green-600 text-white rounded-2xl font-bold text-base shadow-xl shadow-emerald-600/25 hover:shadow-2xl hover:shadow-emerald-600/35 transition-all flex items-center justify-center gap-2 hover:-translate-y-1 active:scale-[0.97] cursor-pointer border-none">
                   🚀 Run Demo Simulation
                   <ArrowRight
@@ -1029,9 +1029,9 @@ const HomePage = () => {
               <ul className="space-y-3 list-none p-0 m-0">
                 {[
                   { to: "/", label: "Home", target: "_self" },
-                  { to: "/demo", label: "Demo Simulation", target: "_blank" },
-                  { to: "/seller", label: "Seller Panel", target: "_blank" },
-                  { to: "/admin", label: "Admin Panel", target: "_blank" },
+                  { to: "/demo", label: "Demo Simulation", target: "_self" },
+                  { to: "/seller", label: "Seller Panel", target: "_self" },
+                  { to: "/admin", label: "Admin Panel", target: "_self" },
                 ].map((link) => (
                   <li key={link.to}>
                     <Link
